@@ -1,0 +1,128 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F3F4F6;
+  background-image: url('src/assets/background-image@2x.png');
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#root {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+  margin: 0;
+}
+.top-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  column-gap: 20px;
+}
+.top-navigation h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+}
+.top-navigation div {
+  background-color: #95AAD0;
+  border-radius: 15px;
+  padding: 5px 12px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  margin-top: 0;
+  height: calc(100% - 200px);
+}
+.summary-section, .contact-section {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+  padding: 30px;
+}
+.summary-section {
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #e5e7ea;
+}
+.contact-section {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #ffffff;
+  h3 {
+    text-align: start;
+  }
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 100%;
+}
+.item {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  width: 100%;
+}
+.item-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  border: 1px solid #D2D5DA;
+  background-color: #ffffff;
+}
+.item-img img {
+  height: fit-content;
+}
+.info {
+  display: grid;
+  padding: 0 20px;
+  flex: 1;
+  height: 100%;
+}
+.info div {
+  display: flex;
+  justify-content: space-between;
+}
+.first-row {
+  color: black;
+}
+.info > h3, .info > h3 ~ div {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #6C727F;
+}
+.info h3 {
+  text-align: start;
+  margin: 0;
+}
+.info p {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-image: url('src/assets/background-image.png');
+  }
+}
