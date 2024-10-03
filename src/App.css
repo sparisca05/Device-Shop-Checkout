@@ -8,11 +8,16 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
+  line-height: normal;
 }
 #root {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   text-align: center;
-  height: 100%;
+  padding: 40px;
+  row-gap: 40px;
+  max-width: 1280px;
 }
 h3 {
   font-size: 1.2rem;
@@ -24,7 +29,6 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
   column-gap: 20px;
 }
 .top-navigation h1 {
@@ -42,16 +46,10 @@ h3 {
 }
 .content-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px;
-  margin-top: 0;
-  height: calc(100% - 200px);
 }
 .summary-section, .contact-section {
   display: flex;
   flex: 1;
-  height: 100%;
   flex-direction: column;
   padding: 30px;
 }
@@ -66,6 +64,7 @@ h3 {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: #ffffff;
+  row-gap: 30px;
   h3 {
     text-align: start;
   }
@@ -105,8 +104,9 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
-.first-row {
-  color: black;
+.subtitle, .subtitle ~ h3 {
+  font-weight: 600;
+  color: #6C727F;
 }
 .info > h3, .info > h3 ~ div {
   font-size: 1.2rem;
@@ -119,6 +119,62 @@ h3 {
 }
 .info p {
   margin: 0;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #D2D5DA;
+  margin: 30px 0;
+}
+.pay-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 20px;
+  width: 100%;
+}
+.coupon-form {
+  display: flex;
+  height: 60px;
+  column-gap: 10px;
+}
+input {
+  flex: 1;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #D2D5DA;
+  font: inherit;
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font: inherit;
+  cursor: pointer;
+}
+.bill {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  flex: 1;
+  label {
+    text-align: left;
+  }
+  input {
+    background-color: #F3F4F6;
+  }
 }
 
 @media screen and (max-width: 1024px) {
