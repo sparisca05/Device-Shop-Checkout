@@ -1,7 +1,7 @@
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 40px;
   background-color: #F3F4F6;
   background-image: url('src/assets/background-image@2x.png');
   background-position: top;
