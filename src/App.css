@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 40px;
   background-color: #F3F4F6;
-  background-image: url('src/assets/background-image.png');
+  background-image: url('src/assets/background-image.webp');
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
@@ -90,9 +90,6 @@ h3 {
   border: 1px solid #D2D5DA;
   background-color: #ffffff;
 }
-.item-img img {
-  height: fit-content;
-}
 .info {
   display: grid;
   padding-left: 20px;
@@ -133,7 +130,7 @@ h3 {
 }
 .coupon-form {
   display: flex;
-  column-gap: 10px;
+  gap: 10px;
 }
 input, select {
   flex: 1;
@@ -218,6 +215,12 @@ button {
   }
 }
 @media screen and (max-width: 500px) {
+  #root {
+    row-gap: 20px;
+  }
+  .coupon-form {
+    flex-direction: column;
+  }
   .contact-form > div {
     flex-direction: column;
   }

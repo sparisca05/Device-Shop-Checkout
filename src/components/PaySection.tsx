@@ -1,5 +1,3 @@
-import React from 'react';
-
 function PaySection({prices} : {prices: number[]}) {
     const subtotal = prices.reduce((a, b) => a + b);
     const tax = subtotal * 0.24;

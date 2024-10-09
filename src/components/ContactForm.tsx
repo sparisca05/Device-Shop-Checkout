@@ -43,7 +43,7 @@ function ContactForm() {
             </div>
             <button type='submit'>Continue</button>
         </form>
-    );
+        );
 }
 
 export default ContactForm;
