@@ -1,5 +1,3 @@
-import React from 'react'
-
 import TopNavigation from './components/TopNavigation'
 import SummarySection from './components/SummarySection'
 import ContactSection from './components/ContactSection'

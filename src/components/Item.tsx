@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Item = ({img, name, price, color} : {img: string, name: string, price: number, color: string}) => {
     return (
