@@ -13,7 +13,7 @@ const Item = ({img, name, price, color} : {img: string, name: string, price: num
                 <h3>{color}</h3>
                 <div style={{alignSelf: 'flex-end'}}>
                     <span>x 1</span>
-                    <img src="src/assets/close-icon.svg" alt="Close" />
+                    <img src="images/close-icon.svg" alt="Close" />
                 </div>
             </div>
         </div>
