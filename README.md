@@ -1,6 +1,6 @@
 # Device Shop Checkout
 
-This is a self-project developed with for a challenge in devchallenges.io
+This is a personal-project developed for a challenge in devchallenges.io
 
 The idea was to replicate a template that they provided me with these requirements:
 
