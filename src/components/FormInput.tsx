@@ -16,8 +16,7 @@ const FormInput = ({label, inputType, name, placeholder, onChange} : PaySectionP
                 <input type={inputType} id={name} name={name} autoComplete={inputType} placeholder={placeholder} onChange={onChange} /> 
             : (
                 <select aria-label="Select your country" id={name} name={name} autoComplete='off' onChange={onChange}>
-                    <option defaultValue={placeholder}>{placeholder}</option>
-                    <option value="Finland">Finland</option>
+                    <option defaultValue="Finland">Finland</option>
                     <option value="Colombia">Colombia</option>
                     <option value="United States">United States</option>
                     <option value="France">France</option>

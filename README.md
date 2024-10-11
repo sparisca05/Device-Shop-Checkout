@@ -1,50 +1,46 @@
-# React + TypeScript + Vite
+# Device Shop Checkout
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a self-project developed with for a challenge in devchallenges.io
 
-Currently, two official plugins are available:
+The idea was to replicate a template that they provided me with these requirements:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Build an Apple shop checkout page website with a top navigation, summary section and contact form section.
 
-## Expanding the ESLint configuration
+- Use fundamental CSS techniques like Grid and Flexbox to structure the layout.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Display all the products in the summary section.
 
-- Configure the top-level `parserOptions` property like this:
+- Collect user information such as name, email, and country in the contact section.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Style the layout to be responsive and adapt to different screen sizes.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- Practice styling forms and fundamental CSS techniques like Grid and Flex.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Ensure the website is accesible and user-friendly.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Test the website on different devices and screen sizes to ensure responsiveness.
+
+- Optimize the website for performance and loading speed.
+
+- Use semantic HTML for performance and loading speed.
+
+- Aply CSS styles to enhance the visual presentation of hte Apple shop checkout page elements.
+
+- Validate the HTML and CSS code to ensure it follows best practices and standards.
+
+- (Optional) Add hover effects or animations to make the website more interactive.
+
+- Document the code and provide clear instructions on how to run and use the website.
+
+- Deploy the website to make it accesible for everyone.
+
+## Running the code
+
+Clone this repository,
+
+Run:
+
+- npm i
+- npm run dev
+
+Now you can use the website.
