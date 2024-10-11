@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 40px;
   background-color: #F3F4F6;
-  background-image: url('images/background-image.webp');
+  background-image: url('/images/background-image.webp');
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
