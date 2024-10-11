@@ -4,7 +4,7 @@ import Item from './Item';
 import PaySection from './PaySection';
 
 function SummarySection() {
-    const [imgs] = useState<string[]>(["src/assets/Gold.png", "src/assets/Blue.webp", "src/assets/iMac=Front.webp"]);
+    const [imgs] = useState<string[]>(["src/assets/Gold.webp", "src/assets/Blue.webp", "src/assets/iMac=Front.webp"]);
     const [prices] = useState<number[]>([999.00, 399.00, 1199.00]);
     const [names] = useState<string[]>(["iPhone 12", "Apple Watch", "iMac"]);
     const [colors] = useState<string[]>(["Gold", "Blue", "Green"]);
